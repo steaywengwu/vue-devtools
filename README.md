@@ -2,10 +2,13 @@
 
 #第一步：找到vue-devtools的github项目，并将其clone到本地. vue-devtools
 git clone https://github.com/vuejs/vue-devtools.git
+
 #第二步：安装项目所需要的npm包
 npm install //如果太慢的话，可以安装一个cnpm, 然后命令换成 cnpm install
+
 #第三步：编译项目文件
-npm run build
+npm run build //cd 到解压包下
+
 第四步：添加至chrome游览器
 游览器输入地址“chrome://extensions/”进入扩展程序页面，（勾选开发者模式或者打开开关）点击“加载已解压的扩展程序...”按钮，选择vue-devtools>shells下的chrome文件夹。
 
